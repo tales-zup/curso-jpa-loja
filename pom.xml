@@ -31,13 +31,11 @@
             <artifactId>hibernate-entitymanager</artifactId>
             <version>5.5.5.Final</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.26</version>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>1.4.200</version>
         </dependency>
-
     </dependencies>
 
 </project>
